@@ -18,12 +18,10 @@ const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time))
     $('.v-modal').css("z-index", "-1")
       
       //需要加速请删除注释
-      /*
       if (!/1\.5/.test($('.speedBox').attr('style'))) {
         console.log('提升到1.5倍速')
         $('.speedTab15').click()
       }
-      */
       if(time>0){  
           console.log(time)
           time=time-2;  
